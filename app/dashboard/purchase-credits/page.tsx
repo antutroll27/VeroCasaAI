@@ -61,7 +61,7 @@ function PurchaseSubscription() {
 			subscriptionType: "monthly - No ads",
 		},
 		{
-			price: 60,
+			price: 59.99,
 			subscriptionType: "yearly - No ads",
 		},
 	];
@@ -124,20 +124,14 @@ function PurchaseSubscription() {
 					<h2 className="text-6xl font-bold text-colors-custom-purple">
 						Purchase Subscription
 					</h2>
-					<h2 className="text-xl text-colors-custom-purple pt-4">
+					<h2 className="text-xl text-colors-custom-purple pt-4 pb-20">
 						Choose your subscription plan
 					</h2>
 				</div>
 			</div>
 
 			<div className="w-full lg:max-w-6xl mx-auto px-6 ">
-				<h2 className=" text-3xl lg:text-[64px] lg:leading-[81px] font-bold mb-7">
-					Pricing
-				</h2>
-				<p className=" text-sm mb-12">
-					Why settle for ordinary? Our pricing plans bend, flex, and <br />{" "}
-					mould to your unique game plan.
-				</p>
+				
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 					{pricingPlans.map((plan, index) => (
 						<div
